@@ -1,0 +1,105 @@
+{
+  "company": {
+    "name": "Retro//vrs 2022"
+  },
+  "navigation": [
+    {
+      "href": "top"
+    },
+    {
+      "href": "product"
+    },
+    {
+      "href": "features"
+    },
+    {
+      "href": "pricing"
+    },
+    {
+      "href": "testflight"
+    },
+    {
+      "href": "about"
+    }
+  ],
+  "mainHero": {
+    "primaryAction": {
+      "href": "#testflight"
+    },
+    "secondaryAction": {
+    }
+  },
+  "product": {
+    "items": [
+      {
+        "img": "/assets/gifs/photogrammetry.gif"
+      },
+      {
+      }
+    ]
+  },
+  "features": {
+    "subtitle": "Powered by cutting-edge technologies!",
+    "items": [
+      {
+      },
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  "pricing": {
+    "items": [
+      {
+        "features": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "features": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "features": [
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "testflight": {
+    "primaryAction": {
+    }
+  },
+  "about": {
+    "sections": [
+      {
+        "href": "#top"
+      },
+      {
+        "href": "#product"
+      },
+      {
+        "href": "#features"
+      },
+      {
+        "href": "#pricing"
+      },
+      {
+        "name": "Testflight",
+        "href": "#testflight"
+      }
+    ],
+    "socialMedia": {
+    }
+  }
+}
