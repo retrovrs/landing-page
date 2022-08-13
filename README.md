@@ -1,1 +1,1 @@
-[![gitlocalized ](https://gitlocalize.com/repo/7820/de/badge.svg)](https://gitlocalize.com/repo/7820/de?utm_source=badge)
+[![gitlocalized ](https://gitlocalize.com/repo/7820/whole_project/badge.svg)](https://gitlocalize.com/repo/7820/whole_project?utm_source=badge)
