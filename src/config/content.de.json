@@ -1,0 +1,163 @@
+{
+  "company": {
+    "name": "Retro//vrs 2022",
+    "logo": "/assets/images/logo.png",
+    "logoText": "/assets/images/logo-retrovrs.png"
+  },
+  "navigation": [
+    {
+      "name": "Produkt",
+      "href": "top"
+    },
+    {
+      "name": "Merkmale",
+      "href": "product"
+    },
+    {
+      "name": "Technologien",
+      "href": "features"
+    },
+    {
+      "name": "Bietet an",
+      "href": "pricing"
+    },
+    {
+      "name": "Testflug",
+      "href": "testflight"
+    },
+    {
+      "name": "Kontakt",
+      "href": "about"
+    }
+  ],
+  "mainHero": {
+    "title": "Retro//vs",
+    "logo": "/assets/images/logo-retrovrs.png",
+    "subtitle": "Unvollkommenheit formt Identität",
+    "description": "Ein phygitaler Marktplatz für gebrauchte Luxusgüter mit einem eingebetteten Blockchain-gesicherten Authentifizierungsdienst, der Kunden und Verkäufer vor gefälschten Verkäufen schützt.",
+    "img": "/assets/gifs/digital-twin.gif",
+    "primaryAction": {
+      "text": "Loslegen",
+      "href": "#testflight"
+    },
+    "secondaryAction": {
+      "text": "Schreiben Sie uns eine E-Mail",
+      "href": "mailto:info@retrovrs.com?subject=Hallo Retrovrs!"
+    }
+  },
+  "product": {
+    "title": "Merkmale",
+    "items": [
+      {
+        "title": "Retro//fit: 3D-Erfassung",
+        "description": "Verwandeln Sie Fotos Ihrer Luxusgüter von Ihrem Telefon in hochwertige digitale 3D-Zwillinge, die für AR optimiert sind. Es verwendet Photogrammetrie, um eine Reihe von Bildern, die auf Ihrem Telefon aufgenommen wurden, in ein 3D-Modell umzuwandeln.",
+        "img": "/assets/gifs/photogrammetry.gif"
+      },
+      {
+        "title": "Retro//twin: Digitales Zertifikat",
+        "description": "Das Echtheitszertifikat des Luxusguts liegt in Form eines digitalen 3D-Zwillings vor. Es ist am Objekt selbst befestigt, nicht an einem Ereignis, einem Papier oder einem Chip. Es ermöglicht die digitale Rückverfolgbarkeit der authentifizierten Luxusgüter",
+        "img": "/assets/gifs/augmented-reality.gif"
+      }
+    ]
+  },
+  "features": {
+    "title": "Neueste & beste",
+    "subtitle": "Powered by cutting-edge technologies!",
+    "items": [
+      {
+        "name": "Photogrammetrie",
+        "description": "Verwandeln Sie Fotos von Ihrem Telefon in hochwertige 3D-Modelle, die für AR optimiert sind. Was benötigt wird, ist eine Reihe von gut beleuchteten Fotos, die aus vielen verschiedenen Blickwinkeln aufgenommen wurden. Es analysiert den Überlappungsbereich zwischen verschiedenen Bildern, um Orientierungspunkte abzugleichen, und erstellt dann ein 3D-Modell des fotografierten Objekts.",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Peer-Verifizierung",
+        "description": "Digital Twin ermöglicht die Authentifizierung durch Peer-Verifizierung aus dem Expertennetzwerk von Retrovrs mit einem transparenten Prozess. Wir bieten 3 Überprüfungsebenen, um die Genauigkeit des Authentifizierungsprozesses sicherzustellen",
+        "icon": "/assets/images/techs/peer-verification.png"
+      },
+      {
+        "name": "Kreuzkette",
+        "description": "Blockchain-Interaktionen erfordern Gasgebühren, was darauf hindeutet, dass es ziemlich teuer werden kann, eine Metaverse-Plattform zu betreiben. Eine Cross-Chain ist die Interoperabilität zwischen zwei relativ unabhängigen Blockchains. Mit anderen Worten, es ermöglicht Blockchains, miteinander zu sprechen, weil sie standardisiert aufgebaut sind. Diese Interoperabilität ermöglicht die Abwicklung von Transaktionen mit hohem Volumen in einer Kette mit niedrigen/null Gasgebühren.",
+        "icon": "/assets/images/techs/cross-chain.png"
+      },
+      {
+        "name": "Metaverse",
+        "description": "Kurz gesagt ist das Metaverse „ein ganz neues interaktives 3D-Internet“. Die Entstehung des Metaversums bietet ein unglaubliches Potenzial für die Mode- und Luxusindustrie. Da die Mode in die Metaverse eintaucht, kann sie in zwei Formen unterteilt werden: die Kombination von physisch und digital, bei der Kleidung mithilfe erweiterter oder virtueller Realitäten getragen werden kann, und vollständig digital, bei der Artikel direkt an einen Avatar verkauft werden.",
+        "icon": "/assets/images/techs/metaverse.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Bietet an",
+    "items": [
+      {
+        "name": "Authentifizierung",
+        "price": "$40",
+        "priceDetails": "pro Stück",
+        "features": [
+          "Zertifikat für digitalen Zwilling",
+          "2-12 Stunden Bearbeitungszeit",
+          "Ein Leben lang gültig"
+        ]
+      },
+      {
+        "name": "Marktplatz",
+        "price": "3%",
+        "priceDetails": "pro Transaktion",
+        "features": [
+          "Auflistung im Retro//Store",
+          "Sichere Bezahlung",
+          "24/7-Support"
+        ]
+      },
+      {
+        "name": "Zertifikatsübertragung",
+        "price": "2%",
+        "priceDetails": "pro Transaktion",
+        "features": [
+          "Sofortige Transaktion",
+          "Metaverse-Schrank",
+          "Unterstützung mehrerer Plattformen"
+        ]
+      }
+    ]
+  },
+  "testflight": {
+    "title": "Retro//Publikum",
+    "description": "Mobile App zum 3D-Scannen von Luxusgütern aus zweiter Hand und zum Teilen mit der Community, um zu prüfen, ob der Artikel echt ist. Das Ziel ist es, eine Community und Marke aufzubauen und gleichzeitig 3D-Modelldaten für unsere Forschung und Entwicklung zum Phygital-Authentifizierungsdienst zu sammeln",
+    "img": "/assets/images/avatar.png",
+    "imgQr": "/assets/images/qr.png",
+    "primaryAction": {
+      "text": "Beta-Tester beitreten",
+      "href": "https://testflight.apple.com/join/6a0fKjAD"
+    }
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Produkt",
+        "href": "#top"
+      },
+      {
+        "name": "Merkmale",
+        "href": "#product"
+      },
+      {
+        "name": "Technologien",
+        "href": "#features"
+      },
+      {
+        "name": "Bietet an",
+        "href": "#pricing"
+      },
+      {
+        "name": "Testflight",
+        "href": "#testflight"
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/retrovrs",
+      "instagram": "https://instagram.com/rtrvrs",
+      "linkedin": "https://www.linkedin.com/company/retrovrs/"
+    }
+  }
+}
