@@ -58,11 +58,6 @@ const App = () => {
       </LazyShow>
       <LazyShow>
         <>
-          <Pricing />
-        </>
-      </LazyShow>
-      <LazyShow>
-        <>
           <Testflight />
           <Canvas />
         </>
