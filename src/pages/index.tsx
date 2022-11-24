@@ -20,6 +20,10 @@ const App = () => {
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <Script
+        id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=68df15d1-2b5f-4ca1-adb3-6ffcf25f05c9"
+      />
+      <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-S8DDM05FM9"
         strategy="afterInteractive"
       />
