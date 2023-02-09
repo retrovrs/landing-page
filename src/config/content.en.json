@@ -22,6 +22,10 @@
       "href": "testflight"
     },
     {
+      "name": "Squad",
+      "href": "squad"
+    },
+    {
       "name": "Contact",
       "href": "about"
     }
@@ -29,8 +33,10 @@
   "mainHero": {
     "title": "Retro//vrs",
     "logo": "/assets/images/logo-retrovrs.png",
-    "subtitle": "Imperfection shapes identity",
-    "description": "A phygital marketplace for pre-owned luxury goods with an embedded blockchain secured authentication service that protects customers and sellers against counterfeit sales.",
+    "subtitle": "Luxury Asset Hub",
+    "description": "The first web3 Luxury Asset Hub that grants lifetime equity to luxury consumers via the collections they currently own. It is the only hub that allows collectors to fully monetize their assets with multi revenue streams while ensuring trust through an embedded, completely transparent and secure authentication process that protects the community from counterfeit transactions.",
+    "description1": "A Luxury Asset Hub is a platform dedicated to the trade and management of high-end physical and digital luxury goods, providing services such as authentication, rental and data monetization. The term “hub” emphasizes the central role it plays in bringing together buyers, sellers, collectors, researchers, and authenticators in a convenient, efficient, and secure manner.",
+    "description2": "Our vision is to put the power into the hands of the consumers through not only equitable sales and resales, but also through ownership and management of your personal data in a decentralized way…while also protecting the environment by making it easier, safer and more alluring to purchase pre-owned luxury ;)",
     "img": "/assets/gifs/digital-twin.gif",
     "primaryAction": {
       "text": "Get started",
@@ -119,13 +125,54 @@
   },
   "testflight": {
     "title": "Retro//crowd",
-    "description": "Mobile App to 3D scan second hand luxury goods and share it to the community to check if the item is legit. The goal is to build community and brand while at the same time gathering 3D models data for our R&D on Phygital Authentication Service",
+    "description": "A community-driven platform that connects luxury collectors with second-hand luxury buyers. Collectors can share their knowledge and experience about their collection, while buyers can ask questions and access information to make informed decisions.",
     "img": "/assets/images/avatar.png",
     "imgQr": "/assets/images/qr.png",
     "primaryAction": {
       "text": "Join beta tester",
       "href": "https://apps.apple.com/us/app/retrovrs/id1624652366"
     }
+  },
+  "squad": {
+    "title": "Squad",
+    "subtitle": "Powered by cutting-edge technologies!",
+    "items": [
+      {
+        "name": "Alessandria Redley-Bagayan",
+        "description": "CoFounder // CEO",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Rizky Ario",
+        "description": "CoFounder // CTO",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Shyla Hoenigschmid",
+        "description": "CFO",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Isabella Livia",
+        "description": "VP Business Development & Partnerships",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Frenchye Harris",
+        "description": "VP Marketing & Communications",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Lourdes Castillo Garcia",
+        "description": "UX/UI Designer",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Ludovic Simon",
+        "description": "Advisor",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      }
+    ]
   },
   "about": {
     "sections": [
@@ -144,6 +191,10 @@
       {
         "name": "Testflight",
         "href": "#testflight"
+      },
+      {
+        "name": "Squad",
+        "href": "#squad"
       }
     ],
     "socialMedia": {
