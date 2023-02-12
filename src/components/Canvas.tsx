@@ -1,10 +1,14 @@
-import { useRef, FC, useEffect, useState } from 'react';
+import { useRef, FC, useEffect, useState, CSSProperties } from 'react';
 
 import { CanvasContext } from '../hooks/useCanvas';
 import useResponsiveSize from '../hooks/useResponsiveSize';
 import Wave from './Wave';
 
-const Canvas: FC = () => {
+type Props = {
+  style?: CSSProperties | undefined;
+};
+
+const Canvas: FC<Props> = ({ style }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const { width } = useResponsiveSize();
   const [context, setContext] = useState<
@@ -19,7 +23,13 @@ const Canvas: FC = () => {
   return (
     <>
       <CanvasContext.Provider value={{ context }}>
-        <canvas id="canvas" ref={canvasRef} width={width} height={220}></canvas>
+        <canvas
+          id="canvas"
+          ref={canvasRef}
+          width={width}
+          height={220}
+          style={style}
+        ></canvas>
         <Wave />
       </CanvasContext.Provider>
     </>
