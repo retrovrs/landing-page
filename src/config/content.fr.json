@@ -139,37 +139,44 @@
     "items": [
       {
         "name": "Alessandria Redley-Bagayan",
-        "description": "CoFounder // CEO",
+        "title": "CoFounder // CEO",
+        "description": "NYC Fashion/Luxury Industry Leader",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Rizky Ario",
-        "description": "CoFounder // CTO",
+        "title": "CoFounder // CTO",
+        "description": "42 Graduate, Tech Expert",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Shyla Hoenigschmid",
-        "description": "CFO",
+        "title": "CFO",
+        "description": "Formerly at JP Morgan Chase",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Isabella Livia",
-        "description": "VP Business Development & Partnerships",
+        "title": "VP Business Development & Partnerships",
+        "description": "Formerly at The RealReal",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Frenchye Harris",
-        "description": "VP Marketing & Communications",
+        "title": "VP Marketing & Communications",
+        "description": "Formerly at Neiman Marcus, Founder of The Black Fashion Movement",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Lourdes Castillo Garcia",
-        "description": "UX/UI Designer",
+        "title": "UX/UI Designer",
+        "description": "Ironhack Graduate, Designer Extraordinaire",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
         "name": "Ludovic Simon",
-        "description": "Advisor",
+        "title": "Advisor",
+        "description": "Currently Head of Growth at Ledger",
         "icon": "/assets/images/techs/photogrammetry.png"
       }
     ]
