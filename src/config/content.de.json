@@ -18,8 +18,8 @@
       "href": "features"
     },
     {
-      "name": "Testflight",
-      "href": "testflight"
+      "name": "Retro//app",
+      "href": "retroapp"
     },
     {
       "name": "Squad",
@@ -40,7 +40,7 @@
     "img": "/assets/gifs/digital-twin.gif",
     "primaryAction": {
       "text": "Get started",
-      "href": "#testflight"
+      "href": "#retroapp"
     },
     "secondaryAction": {
       "text": "Email us",
@@ -196,8 +196,8 @@
         "href": "#features"
       },
       {
-        "name": "Testflight",
-        "href": "#testflight"
+        "name": "Retro//app",
+        "href": "#retroapp"
       },
       {
         "name": "Squad",
