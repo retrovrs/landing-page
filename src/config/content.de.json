@@ -6,144 +6,202 @@
   },
   "navigation": [
     {
-      "name": "Produkt",
+      "name": "Product",
       "href": "top"
     },
     {
-      "name": "Merkmale",
+      "name": "Features",
       "href": "product"
     },
     {
-      "name": "Technologien",
+      "name": "Technologies",
       "href": "features"
     },
     {
-      "name": "Testflug",
+      "name": "Testflight",
       "href": "testflight"
     },
     {
-      "name": "Kontakt",
+      "name": "Squad",
+      "href": "squad"
+    },
+    {
+      "name": "Contact",
       "href": "about"
     }
   ],
   "mainHero": {
-    "title": "Retro//vs",
+    "title": "Retro//vrs",
     "logo": "/assets/images/logo-retrovrs.png",
-    "subtitle": "Unvollkommenheit formt Identität",
-    "description": "Ein phygitaler Marktplatz für gebrauchte Luxusgüter mit einem eingebetteten Blockchain-gesicherten Authentifizierungsdienst, der Kunden und Verkäufer vor gefälschten Verkäufen schützt.",
+    "subtitle": "Luxury Asset Hub",
+    "description": "The first web3 Luxury Asset Hub that grants lifetime equity to luxury consumers via the collections they currently own. It is the only hub that allows collectors to fully monetize their assets with multi revenue streams while ensuring trust through an embedded, completely transparent and secure authentication process that protects the community from counterfeit transactions.",
+    "description1": "A Luxury Asset Hub is a platform dedicated to the trade and management of high-end physical and digital luxury goods, providing services such as authentication, rental and data monetization. The term “hub” emphasizes the central role it plays in bringing together buyers, sellers, collectors, researchers, and authenticators in a convenient, efficient, and secure manner.",
+    "description2": "Our vision is to put the power into the hands of the consumers through not only equitable sales and resales, but also through ownership and management of your personal data in a decentralized way…while also protecting the environment by making it easier, safer and more alluring to purchase pre-owned luxury ;)",
     "img": "/assets/gifs/digital-twin.gif",
     "primaryAction": {
-      "text": "Loslegen",
+      "text": "Get started",
       "href": "#testflight"
     },
     "secondaryAction": {
-      "text": "Schreiben Sie uns eine E-Mail",
-      "href": "mailto:info@retrovrs.com?subject=Hallo Retrovrs!"
+      "text": "Email us",
+      "href": "mailto:info@retrovrs.com?subject=Hello retrovrs!"
     }
   },
   "product": {
-    "title": "Merkmale",
+    "title": "Features",
     "items": [
       {
-        "title": "Retro//fit: 3D-Erfassung",
-        "description": "Verwandeln Sie Fotos Ihrer Luxusgüter von Ihrem Telefon in hochwertige digitale 3D-Zwillinge, die für AR optimiert sind. Es verwendet Photogrammetrie, um eine Reihe von Bildern, die auf Ihrem Telefon aufgenommen wurden, in ein 3D-Modell umzuwandeln.",
+        "title": "Retro//fit: 3D Capture",
+        "description": "Turn photos of your luxury goods from your phone into high‑quality 3D digital twins that are optimized for AR. It uses photogrammetry to turn a series of pictures taken on your phone into 3D model.",
         "img": "/assets/gifs/photogrammetry.gif"
       },
       {
-        "title": "Retro//twin: Digitales Zertifikat",
-        "description": "Das Echtheitszertifikat des Luxusguts liegt in Form eines digitalen 3D-Zwillings vor. Es ist am Objekt selbst befestigt, nicht an einem Ereignis, einem Papier oder einem Chip. Es ermöglicht die digitale Rückverfolgbarkeit der authentifizierten Luxusgüter",
+        "title": "Retro//twin: Digital certificate",
+        "description": "The authenticity certificate of the luxury good is in a form of 3D digital twin. It is attached to object itself, not to an event, a paper or a chip. It enables digital traceability of the authenticated luxury goods",
         "img": "/assets/gifs/augmented-reality.gif"
       }
     ]
   },
   "features": {
-    "title": "Neueste & beste",
+    "title": "Latest & greatest ",
     "subtitle": "Powered by cutting-edge technologies!",
     "items": [
       {
-        "name": "Photogrammetrie",
-        "description": "Verwandeln Sie Fotos von Ihrem Telefon in hochwertige 3D-Modelle, die für AR optimiert sind. Was benötigt wird, ist eine Reihe von gut beleuchteten Fotos, die aus vielen verschiedenen Blickwinkeln aufgenommen wurden. Es analysiert den Überlappungsbereich zwischen verschiedenen Bildern, um Orientierungspunkte abzugleichen, und erstellt dann ein 3D-Modell des fotografierten Objekts.",
+        "name": "Photogrammetry",
+        "description": "Turn photos from your phone into high‑quality 3D models that are optimized for AR. What is needed is a series of well-lit photographs taken from many different angles. It analyzes the overlap area between different images to match up landmarks, and then produces a 3D model of the photographed object.",
         "icon": "/assets/images/techs/photogrammetry.png"
       },
       {
-        "name": "Peer-Verifizierung",
-        "description": "Digital Twin ermöglicht die Authentifizierung durch Peer-Verifizierung aus dem Expertennetzwerk von Retrovrs mit einem transparenten Prozess. Wir bieten 3 Überprüfungsebenen, um die Genauigkeit des Authentifizierungsprozesses sicherzustellen",
+        "name": "Peer verification",
+        "description": "Digital Twin enables authentication to be done by peer verification from Retrovrs’ network of experts with transparent process. We provide 3 layers of verifications to ensure the accuracy of the authentication process",
         "icon": "/assets/images/techs/peer-verification.png"
       },
       {
-        "name": "Kreuzkette",
-        "description": "Blockchain-Interaktionen erfordern Gasgebühren, was darauf hindeutet, dass es ziemlich teuer werden kann, eine Metaverse-Plattform zu betreiben. Eine Cross-Chain ist die Interoperabilität zwischen zwei relativ unabhängigen Blockchains. Mit anderen Worten, es ermöglicht Blockchains, miteinander zu sprechen, weil sie standardisiert aufgebaut sind. Diese Interoperabilität ermöglicht die Abwicklung von Transaktionen mit hohem Volumen in einer Kette mit niedrigen/null Gasgebühren.",
+        "name": "Cross-chain",
+        "description": "Blockchain interactions require gas fees which suggests that it can become quite expensive to operate a metaverse platform. A cross-chain is the interoperability between two relatively independent blockchains. In other words, it allows blockchains to speak to one another because they’re built in a standardized way. This interoperability allows the high volume transactions to be handled in low/zero gas fee chain.",
         "icon": "/assets/images/techs/cross-chain.png"
       },
       {
         "name": "Metaverse",
-        "description": "Kurz gesagt ist das Metaverse „ein ganz neues interaktives 3D-Internet“. Die Entstehung des Metaversums bietet ein unglaubliches Potenzial für die Mode- und Luxusindustrie. Da die Mode in die Metaverse eintaucht, kann sie in zwei Formen unterteilt werden: die Kombination von physisch und digital, bei der Kleidung mithilfe erweiterter oder virtueller Realitäten getragen werden kann, und vollständig digital, bei der Artikel direkt an einen Avatar verkauft werden.",
+        "description": "In the simplest of nutshells, the metaverse is \"a whole new 3D interactive internet\". The emergence of the metaverse offers incredible potential for fashion and luxury industry. As fashion immerses itself in the metaverse, it can be separated into two forms: the combination of physical and digital, where clothing can be worn using augmented or virtual realities, and fully digital, where items are sold directly to an avatar.",
         "icon": "/assets/images/techs/metaverse.png"
       }
     ]
   },
   "pricing": {
-    "title": "Bietet an",
+    "title": "Offers",
     "items": [
       {
-        "name": "Authentifizierung",
+        "name": "Authentication",
         "price": "$40",
-        "priceDetails": "pro Stück",
+        "priceDetails": "per item",
         "features": [
-          "Zertifikat für digitalen Zwilling",
-          "2-12 Stunden Bearbeitungszeit",
-          "Ein Leben lang gültig"
+          "Digital twin certificate",
+          "2-12 hours turnaround time",
+          "Valid for a lifetime"
         ]
       },
       {
-        "name": "Marktplatz",
+        "name": "Marketplace",
         "price": "3%",
-        "priceDetails": "pro Transaktion",
+        "priceDetails": "per transaction",
         "features": [
-          "Auflistung im Retro//Store",
-          "Sichere Bezahlung",
-          "24/7-Support"
+          "Listing on retro//store",
+          "Secure payment",
+          "24/7 Support"
         ]
       },
       {
-        "name": "Zertifikatsübertragung",
+        "name": "Certificate Transfer",
         "price": "2%",
-        "priceDetails": "pro Transaktion",
+        "priceDetails": "per transaction",
         "features": [
-          "Sofortige Transaktion",
-          "Metaverse-Schrank",
-          "Unterstützung mehrerer Plattformen"
+          "Instant transaction",
+          "Metaverse closet",
+          "Multi-platform support"
         ]
       }
     ]
   },
   "testflight": {
-    "title": "Retro//Publikum",
-    "description": "Mobile App zum 3D-Scannen von Luxusgütern aus zweiter Hand und zum Teilen mit der Community, um zu prüfen, ob der Artikel echt ist. Das Ziel ist es, eine Community und Marke aufzubauen und gleichzeitig 3D-Modelldaten für unsere Forschung und Entwicklung zum Phygital-Authentifizierungsdienst zu sammeln",
+    "title": "Retro//crowd",
+    "description": "A community-driven platform that connects luxury collectors with second-hand luxury buyers. Collectors can share their knowledge and experience about their collection, while buyers can ask questions and access information to make informed decisions.",
     "img": "/assets/images/avatar.png",
     "imgQr": "/assets/images/qr.png",
     "primaryAction": {
-      "text": "Beta-Tester beitreten",
+      "text": "Join beta tester",
       "href": "https://apps.apple.com/us/app/retrovrs/id1624652366"
     }
+  },
+  "squad": {
+    "title": "Squad",
+    "subtitle": "Powered by cutting-edge technologies!",
+    "items": [
+      {
+        "name": "Alessandria Redley-Bagayan",
+        "title": "CoFounder // CEO",
+        "description": "NYC Fashion/Luxury Industry Leader",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Rizky Ario",
+        "title": "CoFounder // CTO",
+        "description": "42 Graduate, Tech Expert",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Shyla Hoenigschmid",
+        "title": "CFO",
+        "description": "Formerly at JP Morgan Chase",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Isabella Livia",
+        "title": "VP Business Development & Partnerships",
+        "description": "Formerly at The RealReal",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Frenchye Harris",
+        "title": "VP Marketing & Communications",
+        "description": "Formerly at Neiman Marcus, Founder of The Black Fashion Movement",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Lourdes Castillo Garcia",
+        "title": "UX/UI Designer",
+        "description": "Ironhack Graduate, Designer Extraordinaire",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      },
+      {
+        "name": "Ludovic Simon",
+        "title": "Advisor",
+        "description": "Currently Head of Growth at Ledger",
+        "icon": "/assets/images/techs/photogrammetry.png"
+      }
+    ]
   },
   "about": {
     "sections": [
       {
-        "name": "Produkt",
+        "name": "Product",
         "href": "#top"
       },
       {
-        "name": "Merkmale",
+        "name": "Features",
         "href": "#product"
       },
       {
-        "name": "Technologien",
+        "name": "Technologies",
         "href": "#features"
       },
       {
         "name": "Testflight",
         "href": "#testflight"
+      },
+      {
+        "name": "Squad",
+        "href": "#squad"
       }
     ],
     "socialMedia": {

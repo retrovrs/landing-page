@@ -11,6 +11,7 @@ import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Product from '../components/Product';
+import Squad from '../components/Squad';
 import Testflight from '../components/Testflight';
 
 const App = () => {
@@ -62,6 +63,12 @@ const App = () => {
       <LazyShow>
         <>
           <Testflight />
+          <Canvas />
+        </>
+      </LazyShow>
+      <LazyShow>
+        <>
+          <Squad />
           <Canvas />
         </>
       </LazyShow>

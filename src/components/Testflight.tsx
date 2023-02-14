@@ -10,9 +10,9 @@ const Testflight = () => {
     <section className={`bg-background py-8`} id="testflight">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center`}
         >
-          <span className="text-primary">Testflight</span>
+          <span>Testflight</span>
         </h1>
         <Divider />
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
