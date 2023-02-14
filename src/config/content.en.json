@@ -18,8 +18,8 @@
       "href": "features"
     },
     {
-      "name": "Retro//app",
-      "href": "retroapp"
+      "name": "Appstore",
+      "href": "appstore"
     },
     {
       "name": "Squad",
@@ -40,7 +40,7 @@
     "img": "/assets/gifs/digital-twin.gif",
     "primaryAction": {
       "text": "Get started",
-      "href": "#retroapp"
+      "href": "#appstore"
     },
     "secondaryAction": {
       "text": "Email us",
@@ -127,7 +127,7 @@
     "title": "Retro//crowd",
     "description": "A community-driven platform that connects luxury collectors with pre-owned luxury buyers. Collectors can share their knowledge and experience about their collection, while buyers can ask questions and access information to make informed decisions.",
     "img": "/assets/images/avatar.png",
-    "imgQr": "/assets/images/qr.png",
+    "imgQr": "/assets/images/qr.svg",
     "primaryAction": {
       "text": "Join beta tester",
       "href": "https://apps.apple.com/us/app/retrovrs/id1624652366"
@@ -196,8 +196,8 @@
         "href": "#features"
       },
       {
-        "name": "Retro//app",
-        "href": "#retroapp"
+        "name": "Appstore",
+        "href": "#appstore"
       },
       {
         "name": "Squad",
