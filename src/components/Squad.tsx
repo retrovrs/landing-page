@@ -7,7 +7,7 @@ const Squad = () => {
   const { squad } = config;
   const { title, items: squadList } = squad;
   return (
-    <div className={`py-12 bg-background`} id="squad">
+    <div className={`py-12 bg-background robots-nocontent`} id="squad">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center`}
