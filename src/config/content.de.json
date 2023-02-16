@@ -10,6 +10,10 @@
       "href": "top"
     },
     {
+      "name": "Asset Hub",
+      "href": "assetHub"
+    },
+    {
       "name": "Features",
       "href": "product"
     },
@@ -43,6 +47,16 @@
     },
     "secondaryAction": {
       "text": "Email us",
+      "href": "mailto:info@retrovrs.com?subject=Hello retrovrs!"
+    }
+  },
+  "assetHub": {
+    "title": "Asset Hub",
+    "description": "A Luxury Asset Hub is a platform dedicated to the trade and management of high-end physical and digital luxury goods, providing services such as authentication, resale, rental and data monetization. The term “hub” emphasizes the central role it plays in bringing together buyers, sellers, collectors, researchers, and authenticators in a convenient, efficient, and secure manner.",
+    "description1": "Our vision is to put the power into the hands of the consumers through not only equitable sales and resales, but also through ownership and management of your personal data in a decentralized way, while also protecting the environment by making it easier, safer and more alluring to purchase pre-owned luxury",
+    "img": "/assets/images/asset-hub.png",
+    "primaryAction": {
+      "text": "Learn more",
       "href": "mailto:info@retrovrs.com?subject=Hello retrovrs!"
     }
   },
@@ -185,6 +199,10 @@
       {
         "name": "Product",
         "href": "#top"
+      },
+      {
+        "name": "Asset Hub",
+        "href": "#assetHub"
       },
       {
         "name": "Features",
