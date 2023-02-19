@@ -7,10 +7,10 @@ const Testflight = () => {
   const { assetHub } = config;
 
   return (
-    <section className={`bg-background py-8`} id="assetHub">
+    <section className={`bg-background dark:bg-slate-900 py-8`} id="assetHub">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center dark:text-white`}
         >
           <span>{assetHub?.title}</span>
         </h1>
@@ -21,8 +21,12 @@ const Testflight = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <div className={`align-middle`}>
-              <p className={`text-gray-600 mb-8`}>{assetHub?.description}</p>
-              <p className={`text-gray-600 mb-8`}>{assetHub?.description1}</p>
+              <p className={`text-gray-600 dark:text-white mb-8`}>
+                {assetHub?.description}
+              </p>
+              <p className={`text-gray-600 dark:text-white mb-8`}>
+                {assetHub?.description1}
+              </p>
               <div className="rounded-md shadow">
                 <a
                   target={'_blank'}

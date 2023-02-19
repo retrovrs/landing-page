@@ -1,8 +1,7 @@
 {
   "company": {
     "name": "Retro//vrs 2022",
-    "logo": "/assets/images/logo.png",
-    "logoText": "/assets/images/logo-retrovrs.png"
+    "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
@@ -37,6 +36,7 @@
   "mainHero": {
     "title": "Retro//vrs",
     "logo": "/assets/images/logo-retrovrs.png",
+    "logoDark": "/assets/images/logo-retrovrs-dark.png",
     "subtitle": "Luxury Asset Hub",
     "description": "The first web3 Luxury Asset Hub that grants lifetime equity to luxury consumers through the collections they currently own, while fully monetizing their assets via multiple revenue streams.",
     "description1": "We offer trust to collectors who resale and/or purchase through the asset hub via an embedded, completely transparent and secure authentication process that protects the community from counterfeit transactions.",
@@ -223,7 +223,7 @@
     ],
     "socialMedia": {
       "github": "https://github.com/retrovrs",
-      "instagram": "https://instagram.com/rtrvrs",
+      "instagram": "https://instagram.com/retro_vrs",
       "linkedin": "https://www.linkedin.com/company/retrovrs/"
     }
   }

@@ -7,10 +7,13 @@ const Squad = () => {
   const { squad } = config;
   const { title, items: squadList } = squad;
   return (
-    <div className={`py-12 bg-background robots-nocontent`} id="squad">
+    <div
+      className={`py-12 bg-background dark:bg-slate-900 robots-nocontent`}
+      id="squad"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center  dark:text-white`}
         >
           <span>{title}</span>
         </h1>
@@ -21,18 +24,18 @@ const Squad = () => {
               <div key={person.name} className="relative">
                 <dt>
                   <div
-                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary`}
+                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background dark:bg-slate-900 text-tertiary dark:text-white`}
                   >
                     <img src={person.icon} alt={person.name} />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900 dark:text-white">
                     {person.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
+                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-white">
                   {person.title}
                 </dd>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
+                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-white">
                   {person.description}
                 </dd>
               </div>

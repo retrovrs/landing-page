@@ -6,7 +6,7 @@ const Features = () => {
   const { features } = config;
   const { title, subtitle, items: featuresList } = features;
   return (
-    <div className={`py-12 bg-background`} id="features">
+    <div className={`py-12 bg-background dark:bg-slate-900`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2
@@ -14,7 +14,7 @@ const Features = () => {
           >
             {title}
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             {subtitle}
           </p>
         </div>
@@ -25,15 +25,15 @@ const Features = () => {
               <div key={feature.name} className="relative">
                 <dt>
                   <div
-                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary`}
+                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background dark:bg-slate-900 text-tertiary dark:text-white`}
                   >
                     <img src={feature.icon} alt={feature.name} />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900 dark:text-white">
                     {feature.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">
+                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-white">
                   {feature.description}
                 </dd>
               </div>

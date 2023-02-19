@@ -12,16 +12,6 @@ const Menu = () => {
 
   return (
     <>
-      <svg
-        className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2`}
-        fill="currentColor"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <polygon points="50,0 100,0 50,100 0,100" />
-      </svg>
-
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
@@ -36,7 +26,7 @@ const Menu = () => {
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
-                    className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
+                    className={`bg-background dark:bg-slate-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -53,7 +43,7 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium text-gray-500 hover:text-gray-900 dark:text-white"
                 >
                   {item.name}
                 </Link>
@@ -76,7 +66,7 @@ const Menu = () => {
             className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
             <div
-              className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
+              className={`rounded-lg shadow-md bg-background dark:bg-slate-900 ring-1 ring-black ring-opacity-5 overflow-hidden`}
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
@@ -84,7 +74,7 @@ const Menu = () => {
                 </div>
                 <div className="-mr-2">
                   <Popover.Button
-                    className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
+                    className={`bg-background dark:bg-slate-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
                     <span className="sr-only">Close main menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
@@ -100,7 +90,7 @@ const Menu = () => {
                     duration={1000}
                     key={item.name}
                     to={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 dark:text-white"
                   >
                     {item.name}
                   </Link>

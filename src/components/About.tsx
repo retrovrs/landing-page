@@ -5,8 +5,8 @@ import ReactFlagsSelect from 'react-flags-select';
 import config from '../config';
 
 const About = () => {
-  const { company, about } = config;
-  const { logoText, name: companyName } = company;
+  const { mainHero, company, about } = config;
+  const { name: companyName } = company;
   const { socialMedia, sections } = about;
   const [lang, setLang] = useState<string>('GB');
   useEffect(() => {
@@ -26,15 +26,18 @@ const About = () => {
       className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
     >
       <div className="flex flex-col items-center justify-center">
-        <div>
-          <img src={logoText} alt={companyName} />
+        <div className="dark:hidden">
+          <img src={mainHero.logo} alt={companyName} />
+        </div>
+        <div className="dark:display">
+          <img src={mainHero.logoDark} alt={companyName} />
         </div>
         <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
           {sections.map((section, index) => (
             <a
               key={`${section.name}-${index}`}
               href={section.href}
-              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
+              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:hover:text-white  dark:text-white"
             >
               {section.name}
             </a>
@@ -103,8 +106,8 @@ const About = () => {
           />
         </div>
         <div className="flex items-center mt-6">
-          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
-            &copy; {new Date().getFullYear()} retro//vrs
+          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-white">
+            &copy; {new Date().getFullYear()} RETRO//VRS
           </p>
         </div>
       </div>
