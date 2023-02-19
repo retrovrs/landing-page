@@ -16,6 +16,7 @@
     "deploy": "touch ./out/.nojekyll && cp CNAME out/CNAME && gh-pages -d out -t true"
   },
   "dependencies": {
+    "@google/model-viewer": "^3.0.1",
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.5",
     "framer-motion": "^5.0.0",
