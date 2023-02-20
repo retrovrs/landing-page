@@ -154,43 +154,57 @@
         "name": "Alessandria Redley-Bagayan",
         "title": "CoFounder // CEO",
         "description": "NYC Fashion/Luxury Industry Leader",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Ale3D.jpg",
+        "img": "/assets/squad/Ale.jpg"
       },
       {
         "name": "Rizky Ario",
         "title": "CoFounder // CTO",
         "description": "42 Graduate, Tech Expert",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Rizky3D.jpg",
+        "img": "/assets/squad/Rizky.jpg"
       },
       {
         "name": "Shyla Hoenigschmid",
         "title": "CFO",
         "description": "JP Morgan Chase Pedigree",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Shyla3D.jpg",
+        "img": "/assets/squad/Shyla.jpg"
       },
       {
         "name": "Isabella Livia",
         "title": "VP Business Development & Partnerships",
         "description": "Formerly at The RealReal",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Isabella3D.jpg",
+        "img": "/assets/squad/Isabella.jpg"
       },
       {
         "name": "Frenchye Harris",
         "title": "VP Marketing & Communications",
         "description": "Formerly at Neiman Marcus, Founder of The Black Fashion Movement",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Frenchye3D.jpg",
+        "img": "/assets/squad/Frenchye.jpg"
       },
       {
         "name": "Lourdes Castillo Garcia",
         "title": "UX/UI Designer",
         "description": "Ironhack Graduate, Designer Extraordinaire",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Lourdes3D.jpg",
+        "img": "/assets/squad/Lourdes.jpg"
       },
       {
         "name": "Ludovic Simon",
         "title": "Advisor",
         "description": "Currently Head of Growth at Ledger",
-        "icon": "/assets/images/techs/photogrammetry.png"
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Ludovic3D.jpg",
+        "img": "/assets/squad/Ludovic.jpg"
       }
     ]
   },

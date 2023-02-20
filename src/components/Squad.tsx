@@ -24,18 +24,18 @@ const Squad = () => {
               <div key={person.name} className="relative">
                 <dt>
                   <div
-                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background dark:bg-slate-900 text-tertiary dark:text-white`}
+                    className={`absolute flex items-center justify-center h-20 w-20 rounded-md bg-background dark:bg-slate-900 text-tertiary dark:text-white`}
                   >
-                    <img src={person.icon} alt={person.name} />
+                    <img src={person.img} alt={person.name} />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900 dark:text-white">
+                  <p className="ml-24 text-lg leading-6 font-medium text-gray-900 dark:text-white">
                     {person.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-white">
+                <dd className="mt-2 ml-24 text-base text-gray-500 dark:text-white">
                   {person.title}
                 </dd>
-                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-white">
+                <dd className="mt-2 ml-24 text-base text-gray-500 dark:text-white">
                   {person.description}
                 </dd>
               </div>
