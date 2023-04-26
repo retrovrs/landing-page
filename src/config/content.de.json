@@ -199,6 +199,14 @@
         "img": "/assets/squad/Lourdes.jpg"
       },
       {
+        "name": "Isabella Maldonado",
+        "title": "Web3/Luxury Strategy & Operations",
+        "description": "Fashion Business Student at Istituto Marangoni",
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/IsabellaM.jpg",
+        "img": "/assets/squad/IsabellaM.jpg"
+      },
+      {
         "name": "Ludovic Simon",
         "title": "Advisor",
         "description": "Currently Head of Growth at Ledger",
