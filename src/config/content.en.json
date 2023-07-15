@@ -175,20 +175,20 @@
         "img": "/assets/squad/Shyla.jpg"
       },
       {
+        "name": "Frenchye Harris",
+        "title": "CMO",
+        "description": "Formerly at Neiman Marcus, Founder of The Black Fashion Movement",
+        "icon": "/assets/images/techs/photogrammetry.png",
+        "imgPreview": "/assets/squad/Frenchye3D.jpg",
+        "img": "/assets/squad/Frenchye.jpg"
+      },
+      {
         "name": "Isabella Livia",
         "title": "VP Business Development & Partnerships",
         "description": "Formerly at The RealReal",
         "icon": "/assets/images/techs/photogrammetry.png",
         "imgPreview": "/assets/squad/Isabella3D.jpg",
         "img": "/assets/squad/Isabella.jpg"
-      },
-      {
-        "name": "Frenchye Harris",
-        "title": "VP Marketing & Communications",
-        "description": "Formerly at Neiman Marcus, Founder of The Black Fashion Movement",
-        "icon": "/assets/images/techs/photogrammetry.png",
-        "imgPreview": "/assets/squad/Frenchye3D.jpg",
-        "img": "/assets/squad/Frenchye.jpg"
       },
       {
         "name": "Lourdes Castillo Garcia",

@@ -32,6 +32,11 @@ const App = () => {
           src="https://www.googletagmanager.com/gtag/js?id=G-S8DDM05FM9"
           strategy="afterInteractive"
         />
+        <Script
+          async
+          type="text/javascript"
+          src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VLj4Qk"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
           window.dataLayer = window.dataLayer || [];
