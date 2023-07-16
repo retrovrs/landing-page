@@ -1,0 +1,35 @@
+diff --git a/node_modules/react-particle-animation/dist/index.es.js b/node_modules/react-particle-animation/dist/index.es.js
+index 3f7f043..b2a8b53 100644
+--- a/node_modules/react-particle-animation/dist/index.es.js
++++ b/node_modules/react-particle-animation/dist/index.es.js
+@@ -30952,7 +30952,7 @@ var ParticleAnimation = (_temp2 = _class = function (_PureComponent) {
+     key: '_resetParticles',
+     value: function _resetParticles(particles, props, old) {
+       var numParticles = props.numParticles,
+-          size = props.size,
++          size = props.size || {},
+           particleRadius = props.particleRadius,
+           particleSpeed = props.particleSpeed;
+ 
+@@ -30983,7 +30983,7 @@ var ParticleAnimation = (_temp2 = _class = function (_PureComponent) {
+         }
+ 
+         for (var _i3 = 0; _i3 < max; ++_i3) {
+-          var p = particles[_i3];
++          var p = particles[_i3] || {};
+           p.x = p.x * size.width / old.size.width;
+           p.y = p.y * size.height / old.size.height;
+           p.radius = p.radius * particleRadius / old.particleRadius;
+diff --git a/node_modules/react-particle-animation/dist/index.js b/node_modules/react-particle-animation/dist/index.js
+index 93bde1f..383a76b 100644
+--- a/node_modules/react-particle-animation/dist/index.js
++++ b/node_modules/react-particle-animation/dist/index.js
+@@ -30988,7 +30988,7 @@ var ParticleAnimation = (_temp2 = _class = function (_PureComponent) {
+         }
+ 
+         for (var _i3 = 0; _i3 < max; ++_i3) {
+-          var p = particles[_i3];
++          var p = particles[_i3] || {};
+           p.x = p.x * size.width / old.size.width;
+           p.y = p.y * size.height / old.size.height;
+           p.radius = p.radius * particleRadius / old.particleRadius;
