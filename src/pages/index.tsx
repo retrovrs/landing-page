@@ -1,3 +1,4 @@
+/* eslint-disable no-underscore-dangle */
 import React, { useEffect } from 'react';
 
 import Script from 'next/script';
@@ -16,8 +17,17 @@ import Squad from '../components/Squad';
 import Testflight from '../components/Testflight';
 
 const App = () => {
+  const displaySignUpButton = () => {
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'RddHGj']);
+  };
+
   useEffect(() => {
     document.title = 'Retro//vrs';
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const showSignUp = urlParams.get('waitinglist');
+    if (showSignUp) displaySignUpButton();
   }, []);
   return (
     <html className="dark">
